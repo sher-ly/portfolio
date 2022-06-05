@@ -8,8 +8,8 @@
 
 
 <script>
-import Header from "./common/Header.vue";
-import Footer from "./common/Footer.vue";
+import Header from "../views/common/Header.vue";
+import Footer from "../views/common/Footer.vue";
 
 export default {
   name: 'HomeLayout',
