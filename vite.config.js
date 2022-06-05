@@ -12,6 +12,6 @@ export default defineConfig({
   },
   plugins: [vue(), ViteRequireContext()],
   build: {
-    outDir: "../server/src/public",
+    outDir: "./public",
   },
 });
