@@ -1,6 +1,6 @@
 <template>
   <div class="fixed top-0 left-0 z-40">
-    <div class="cursor opacity-75"></div>
+    <div class="cursor opacity-75 blur-sm"></div>
     <header>
       <div class="bg-white min-h-full">
         <ul class="flex item-center gnb px-3 h-8 w-64 justify-between" id="nav">

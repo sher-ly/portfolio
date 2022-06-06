@@ -13,9 +13,17 @@
           <div
             class="p-5 bg-white rounded-lg border border-1 border-slate-300 drop-shadow-lg hover:drop-shadow-xl"
           >
-            <a :href="project.link" class="text-xl font-bold text-slate-700">{{
-              project.name
-            }}</a>
+            <template v-if="project.link === '/'">
+              <a :href="project.link" class="text-xl font-bold text-slate-700">{{
+                  project.name
+                }}</a>
+            </template>
+            <template class="ease-in duration-100" v-if="project.link !== '/'">
+              <a :href="project.link" class="text-xl font-bold text-slate-700 hover:border-b hover:border-1 hover:border-slate-400">{{
+                  project.name
+                }}</a>
+            </template>
+
             <div class="flex flex-wrap my-2 border-b border-1 pb-3 mb-3">
               <span
                 class="text-xs rounded-full p-2 px-3 mr-2 my-1 bg-slate-100 text-slate-800 hover:bg-slate-200"
