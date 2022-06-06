@@ -1,13 +1,13 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
-import "./index.css";
 import axios from "./plugins/axios";
 import apiservice from "./service/apiservice";
 import store from "./store";
 
 import "./assets/css/cursor.css";
 import "./assets/js/cursor.js";
+import "./index.css";
 
 import mitt from "mitt";
 

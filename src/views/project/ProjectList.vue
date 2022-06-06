@@ -1,7 +1,7 @@
 <template>
   <div class="p-8 mx-auto relative bg-white">
     <div
-      class="left-0 top-0 grid grid-cols-1 md:grid-cols-4 gap-4 pb-8 border-b border-1 bg-white pt-8"
+      class="grid grid-cols-1 md:grid-cols-4 gap-4 pb-8 border-b border-1 bg-white pt-8"
       v-for="row in projects"
       :key="row.id"
     >

@@ -3,7 +3,7 @@
     <div class="cursor opacity-75 blur-sm"></div>
     <header>
       <div class="bg-white min-h-full">
-        <ul class="flex item-center gnb px-3 h-8 w-64 justify-between" id="nav">
+        <ul class="flex item-center gnb px-3 h-8 w-72 justify-between" id="nav">
           <li v-for="item in nav" :key="item.id" class="">
             <a :href="item.link" class="font-semibold hover:text-slate-800 text-slate-500 border-b border-1 border-slate-500">
               {{ item.name }}
