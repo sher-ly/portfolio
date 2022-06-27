@@ -11,7 +11,7 @@ import "./index.css";
 
 import mitt from "mitt";
 
-import "./mock";
+// import "./mock";
 
 const emitter = mitt();
 

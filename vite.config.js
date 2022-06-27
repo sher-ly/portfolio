@@ -12,8 +12,6 @@ export default defineConfig({
   },
   plugins: [vue(), ViteRequireContext()],
   build: {
-    outDir: "./public",
-    rollupOptions: {
-    }
+    outDir: "./",
   },
 });
